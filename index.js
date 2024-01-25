@@ -6,7 +6,7 @@ class hero{
         this.age
         
         }
-    escrever(){
+    atacar(){
         console.log(`A heroina ${this.name} do tipo ${this.tipo} atacou usando ${this.ataque}`)
     }
 }
@@ -17,7 +17,7 @@ let ninja= new hero("ninja", "shuriken", "Kezia")
 let guerreiro = new hero("guerreiro", "espada", "Kezia")
 
 
-monge.escrever()
-mago.escrever()
-ninja.escrever()
-guerreiro.escrever()
+monge.atacar()
+mago.atacar()
+ninja.atacar()
+guerreiro.atacar()
